@@ -14,7 +14,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/acgshare/bleve/index/store"
 )
 
 const Version uint64 = 1

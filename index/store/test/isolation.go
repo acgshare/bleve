@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/acgshare/bleve/index/store"
 )
 
 // tests focused on verifying that readers are isolated from writers

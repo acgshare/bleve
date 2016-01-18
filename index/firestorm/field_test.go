@@ -13,7 +13,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/index"
+	"github.com/acgshare/bleve/index"
 )
 
 func TestFieldRows(t *testing.T) {

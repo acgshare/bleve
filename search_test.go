@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/search"
+	"github.com/acgshare/bleve/search"
 )
 
 func TestSearchResultString(t *testing.T) {

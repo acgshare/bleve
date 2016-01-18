@@ -10,9 +10,9 @@
 package bleve
 
 import (
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/acgshare/bleve/document"
+	"github.com/acgshare/bleve/index"
+	"github.com/acgshare/bleve/index/store"
 )
 
 // A Batch groups together multiple Index and Delete

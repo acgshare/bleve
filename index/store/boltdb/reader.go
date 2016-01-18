@@ -10,7 +10,7 @@
 package boltdb
 
 import (
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/acgshare/bleve/index/store"
 	"github.com/boltdb/bolt"
 )
 

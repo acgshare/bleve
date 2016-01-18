@@ -10,12 +10,12 @@
 package cjk
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/registry"
 
-	"github.com/blevesearch/bleve/analysis/token_filters/lower_case_filter"
-	"github.com/blevesearch/bleve/analysis/token_filters/unicode_normalize"
-	"github.com/blevesearch/bleve/analysis/tokenizers/whitespace_tokenizer"
+	"github.com/acgshare/bleve/analysis/token_filters/lower_case_filter"
+	"github.com/acgshare/bleve/analysis/token_filters/unicode_normalize"
+	"github.com/acgshare/bleve/analysis/tokenizers/whitespace_tokenizer"
 )
 
 const AnalyzerName = "cjk"

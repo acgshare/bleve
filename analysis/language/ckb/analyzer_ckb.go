@@ -10,10 +10,10 @@
 package ckb
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/token_filters/lower_case_filter"
-	"github.com/blevesearch/bleve/analysis/tokenizers/unicode"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/analysis/token_filters/lower_case_filter"
+	"github.com/acgshare/bleve/analysis/tokenizers/unicode"
+	"github.com/acgshare/bleve/registry"
 )
 
 const AnalyzerName = "ckb"

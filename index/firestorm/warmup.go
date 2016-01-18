@@ -15,7 +15,7 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/acgshare/bleve/index/store"
 )
 
 const IDFieldName = "_id"

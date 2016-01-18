@@ -12,7 +12,7 @@ package searchers
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/search"
+	"github.com/acgshare/bleve/search"
 )
 
 func TestDisjunctionSearch(t *testing.T) {

@@ -12,7 +12,7 @@ package registry
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/analysis"
+	"github.com/acgshare/bleve/analysis"
 )
 
 func RegisterCharFilter(name string, constructor CharFilterConstructor) {

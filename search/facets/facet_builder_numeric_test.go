@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/blevesearch/bleve/index"
-	nu "github.com/blevesearch/bleve/numeric_util"
+	"github.com/acgshare/bleve/index"
+	nu "github.com/acgshare/bleve/numeric_util"
 )
 
 var pcodedvalues []nu.PrefixCoded

@@ -13,12 +13,12 @@ import (
 	"math"
 	"regexp"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/tokenizers/regexp_tokenizer"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store/gtreap"
-	"github.com/blevesearch/bleve/index/upside_down"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/analysis/tokenizers/regexp_tokenizer"
+	"github.com/acgshare/bleve/document"
+	"github.com/acgshare/bleve/index"
+	"github.com/acgshare/bleve/index/store/gtreap"
+	"github.com/acgshare/bleve/index/upside_down"
 )
 
 var twoDocIndex index.Index //= upside_down.NewUpsideDownCouch(inmem.MustOpen())

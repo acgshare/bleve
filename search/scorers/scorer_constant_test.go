@@ -13,8 +13,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/search"
+	"github.com/acgshare/bleve/index"
+	"github.com/acgshare/bleve/search"
 )
 
 func TestConstantScorer(t *testing.T) {

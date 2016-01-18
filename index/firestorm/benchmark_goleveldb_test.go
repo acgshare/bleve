@@ -12,7 +12,7 @@ package firestorm
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/index/store/goleveldb"
+	"github.com/acgshare/bleve/index/store/goleveldb"
 )
 
 var goLevelDBTestOptions = map[string]interface{}{

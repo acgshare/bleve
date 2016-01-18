@@ -14,7 +14,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/blevesearch/bleve/document"
+	"github.com/acgshare/bleve/document"
 )
 
 var ErrorUnknownStorageType = fmt.Errorf("unknown storage type")

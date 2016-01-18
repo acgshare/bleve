@@ -10,7 +10,7 @@
 package scorers
 
 import (
-	"github.com/blevesearch/bleve/search"
+	"github.com/acgshare/bleve/search"
 )
 
 type ConjunctionQueryScorer struct {

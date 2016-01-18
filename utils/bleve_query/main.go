@@ -17,9 +17,9 @@ import (
 	"runtime/pprof"
 	"strings"
 
-	"github.com/blevesearch/bleve"
-	_ "github.com/blevesearch/bleve/config"
-	_ "github.com/blevesearch/bleve/index/store/metrics"
+	"github.com/acgshare/bleve"
+	_ "github.com/acgshare/bleve/config"
+	_ "github.com/acgshare/bleve/index/store/metrics"
 )
 
 var indexPath = flag.String("index", "", "index path")

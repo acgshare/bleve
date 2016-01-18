@@ -12,5 +12,5 @@
 package config
 
 import (
-	_ "github.com/blevesearch/bleve/analysis/language/ja"
+	_ "github.com/acgshare/bleve/analysis/language/ja"
 )

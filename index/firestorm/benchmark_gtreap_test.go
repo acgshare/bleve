@@ -12,7 +12,7 @@ package firestorm
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/index/store/gtreap"
+	"github.com/acgshare/bleve/index/store/gtreap"
 )
 
 func DestroyGTreap() error {

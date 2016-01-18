@@ -12,7 +12,7 @@ package firestorm
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/index/store/null"
+	"github.com/acgshare/bleve/index/store/null"
 )
 
 func DestroyNull() error {

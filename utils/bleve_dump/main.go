@@ -17,10 +17,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/blevesearch/bleve"
-	_ "github.com/blevesearch/bleve/config"
-	_ "github.com/blevesearch/bleve/index/store/metrics"
-	"github.com/blevesearch/bleve/index/upside_down"
+	"github.com/acgshare/bleve"
+	_ "github.com/acgshare/bleve/config"
+	_ "github.com/acgshare/bleve/index/store/metrics"
+	"github.com/acgshare/bleve/index/upside_down"
 )
 
 var indexPath = flag.String("index", "", "index path")

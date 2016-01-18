@@ -10,13 +10,13 @@
 package fa
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/registry"
 
-	"github.com/blevesearch/bleve/analysis/char_filters/zero_width_non_joiner"
-	"github.com/blevesearch/bleve/analysis/language/ar"
-	"github.com/blevesearch/bleve/analysis/token_filters/lower_case_filter"
-	"github.com/blevesearch/bleve/analysis/tokenizers/unicode"
+	"github.com/acgshare/bleve/analysis/char_filters/zero_width_non_joiner"
+	"github.com/acgshare/bleve/analysis/language/ar"
+	"github.com/acgshare/bleve/analysis/token_filters/lower_case_filter"
+	"github.com/acgshare/bleve/analysis/tokenizers/unicode"
 )
 
 const AnalyzerName = "fa"

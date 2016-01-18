@@ -15,8 +15,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/blevesearch/bleve/index/store"
-	"github.com/blevesearch/bleve/index/store/forestdb"
+	"github.com/acgshare/bleve/index/store"
+	"github.com/acgshare/bleve/index/store/forestdb"
 )
 
 func CreateForestDB() (store.KVStore, error) {

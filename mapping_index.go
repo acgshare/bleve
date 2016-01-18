@@ -12,12 +12,12 @@ package bleve
 import (
 	"encoding/json"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/analyzers/standard_analyzer"
-	"github.com/blevesearch/bleve/analysis/byte_array_converters/json"
-	"github.com/blevesearch/bleve/analysis/datetime_parsers/datetime_optional"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/analysis/analyzers/standard_analyzer"
+	"github.com/acgshare/bleve/analysis/byte_array_converters/json"
+	"github.com/acgshare/bleve/analysis/datetime_parsers/datetime_optional"
+	"github.com/acgshare/bleve/document"
+	"github.com/acgshare/bleve/registry"
 )
 
 const defaultTypeField = "_type"
@@ -182,10 +182,10 @@ func (im *IndexMapping) AddCustomTokenFilter(name string, config map[string]inte
 // use their metadata to fill configuration entries:
 //
 //   import (
-//       "github.com/blevesearch/bleve/analysis/analyzers/custom_analyzer"
-//       "github.com/blevesearch/bleve/analysis/char_filters/html_char_filter"
-//       "github.com/blevesearch/bleve/analysis/token_filters/lower_case_filter"
-//       "github.com/blevesearch/bleve/analysis/tokenizers/unicode"
+//       "github.com/acgshare/bleve/analysis/analyzers/custom_analyzer"
+//       "github.com/acgshare/bleve/analysis/char_filters/html_char_filter"
+//       "github.com/acgshare/bleve/analysis/token_filters/lower_case_filter"
+//       "github.com/acgshare/bleve/analysis/tokenizers/unicode"
 //   )
 //
 //   m := bleve.NewIndexMapping()

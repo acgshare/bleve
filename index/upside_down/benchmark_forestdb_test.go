@@ -15,7 +15,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/blevesearch/blevex/forestdb"
+	"github.com/acgshare/blevex/forestdb"
 )
 
 var forestDBTestOption = map[string]interface{}{

@@ -14,7 +14,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/acgshare/bleve/index/store"
 	"github.com/golang/protobuf/proto"
 )
 

@@ -13,10 +13,10 @@ import (
 	"math"
 	"testing"
 
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store/gtreap"
-	"github.com/blevesearch/bleve/index/upside_down"
+	"github.com/acgshare/bleve/document"
+	"github.com/acgshare/bleve/index"
+	"github.com/acgshare/bleve/index/store/gtreap"
+	"github.com/acgshare/bleve/index/upside_down"
 )
 
 func TestTermSearcher(t *testing.T) {

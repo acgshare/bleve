@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/search/highlight/highlighters/ansi"
+	"github.com/acgshare/bleve/search/highlight/highlighters/ansi"
 )
 
 var mapping *IndexMapping

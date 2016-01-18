@@ -12,11 +12,11 @@ package html
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/registry"
-	"github.com/blevesearch/bleve/search/highlight"
-	html_formatter "github.com/blevesearch/bleve/search/highlight/fragment_formatters/html"
-	simple_fragmenter "github.com/blevesearch/bleve/search/highlight/fragmenters/simple"
-	simple_highlighter "github.com/blevesearch/bleve/search/highlight/highlighters/simple"
+	"github.com/acgshare/bleve/registry"
+	"github.com/acgshare/bleve/search/highlight"
+	html_formatter "github.com/acgshare/bleve/search/highlight/fragment_formatters/html"
+	simple_fragmenter "github.com/acgshare/bleve/search/highlight/fragmenters/simple"
+	simple_highlighter "github.com/acgshare/bleve/search/highlight/highlighters/simple"
 )
 
 const Name = "html"

@@ -14,7 +14,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/blevesearch/bleve/index/upside_down"
+	"github.com/acgshare/bleve/index/upside_down"
 )
 
 const metaFilename = "index_meta.json"

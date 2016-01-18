@@ -15,13 +15,13 @@ import (
 	"log"
 	"time"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store/boltdb"
-	"github.com/blevesearch/bleve/index/upside_down"
-	"github.com/blevesearch/bleve/registry"
-	"github.com/blevesearch/bleve/search/highlight/highlighters/html"
+	"github.com/acgshare/bleve/index"
+	"github.com/acgshare/bleve/index/store/boltdb"
+	"github.com/acgshare/bleve/index/upside_down"
+	"github.com/acgshare/bleve/registry"
+	"github.com/acgshare/bleve/search/highlight/highlighters/html"
 
-	_ "github.com/blevesearch/bleve/index/firestorm"
+	_ "github.com/acgshare/bleve/index/firestorm"
 )
 
 var bleveExpVar = expvar.NewMap("bleve")

@@ -12,7 +12,7 @@ package registry
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/index"
+	"github.com/acgshare/bleve/index"
 )
 
 func RegisterIndexType(name string, constructor IndexTypeConstructor) {

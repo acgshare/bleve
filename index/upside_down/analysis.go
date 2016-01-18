@@ -10,9 +10,9 @@
 package upside_down
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/document"
+	"github.com/acgshare/bleve/index"
 )
 
 func (udc *UpsideDownCouch) Analyze(d *document.Document) *index.AnalysisResult {

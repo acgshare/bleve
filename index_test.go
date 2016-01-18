@@ -24,7 +24,7 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/blevesearch/bleve/analysis/analyzers/keyword_analyzer"
+	"github.com/acgshare/bleve/analysis/analyzers/keyword_analyzer"
 )
 
 func TestCrud(t *testing.T) {

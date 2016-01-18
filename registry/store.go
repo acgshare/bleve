@@ -12,7 +12,7 @@ package registry
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/acgshare/bleve/index/store"
 )
 
 func RegisterKVStore(name string, constructor KVStoreConstructor) {

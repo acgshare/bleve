@@ -13,9 +13,9 @@ import (
 	"fmt"
 	"sort"
 
-	_ "github.com/blevesearch/bleve"
-	_ "github.com/blevesearch/bleve/config"
-	"github.com/blevesearch/bleve/registry"
+	_ "github.com/acgshare/bleve"
+	_ "github.com/acgshare/bleve/config"
+	"github.com/acgshare/bleve/registry"
 )
 
 func main() {

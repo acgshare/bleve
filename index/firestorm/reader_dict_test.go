@@ -14,10 +14,10 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/tokenizers/regexp_tokenizer"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store/gtreap"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/analysis/tokenizers/regexp_tokenizer"
+	"github.com/acgshare/bleve/index"
+	"github.com/acgshare/bleve/index/store/gtreap"
 )
 
 var testAnalyzer = &analysis.Analyzer{

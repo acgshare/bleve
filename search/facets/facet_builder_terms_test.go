@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/blevesearch/bleve/index"
+	"github.com/acgshare/bleve/index"
 )
 
 var terms []string

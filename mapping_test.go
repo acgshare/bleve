@@ -14,9 +14,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/analysis/tokenizers/exception"
-	"github.com/blevesearch/bleve/analysis/tokenizers/regexp_tokenizer"
-	"github.com/blevesearch/bleve/document"
+	"github.com/acgshare/bleve/analysis/tokenizers/exception"
+	"github.com/acgshare/bleve/analysis/tokenizers/regexp_tokenizer"
+	"github.com/acgshare/bleve/document"
 )
 
 var mappingSource = []byte(`{

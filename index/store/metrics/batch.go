@@ -1,6 +1,6 @@
 package metrics
 
-import "github.com/blevesearch/bleve/index/store"
+import "github.com/acgshare/bleve/index/store"
 
 type Batch struct {
 	s *Store

@@ -12,7 +12,7 @@ package document
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/analysis"
+	"github.com/acgshare/bleve/analysis"
 )
 
 const DefaultBooleanIndexingOptions = StoreField | IndexField

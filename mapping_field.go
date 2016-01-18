@@ -12,8 +12,8 @@ package bleve
 import (
 	"time"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/document"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/document"
 )
 
 // control the default behavior for dynamic fields (those not explicitly mapped)

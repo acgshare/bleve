@@ -12,5 +12,5 @@
 package config
 
 import (
-	_ "github.com/blevesearch/blevex/forestdb"
+	_ "github.com/acgshare/blevex/forestdb"
 )

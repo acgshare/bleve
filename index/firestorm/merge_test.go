@@ -15,7 +15,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/index"
+	"github.com/acgshare/bleve/index"
 )
 
 func TestPartialMerge(t *testing.T) {

@@ -20,8 +20,8 @@ package boltdb
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/index/store"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/acgshare/bleve/index/store"
+	"github.com/acgshare/bleve/registry"
 	"github.com/boltdb/bolt"
 )
 

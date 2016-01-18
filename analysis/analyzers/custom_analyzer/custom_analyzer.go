@@ -12,8 +12,8 @@ package custom_analyzer
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/registry"
 )
 
 const Name = "custom"

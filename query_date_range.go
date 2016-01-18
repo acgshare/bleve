@@ -13,10 +13,10 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/numeric_util"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/searchers"
+	"github.com/acgshare/bleve/index"
+	"github.com/acgshare/bleve/numeric_util"
+	"github.com/acgshare/bleve/search"
+	"github.com/acgshare/bleve/search/searchers"
 )
 
 type dateRangeQuery struct {

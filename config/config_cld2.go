@@ -12,5 +12,5 @@
 package config
 
 import (
-	_ "github.com/blevesearch/blevex/detect_lang"
+	_ "github.com/acgshare/blevex/detect_lang"
 )

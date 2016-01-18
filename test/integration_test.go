@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve"
-	bleveIndex "github.com/blevesearch/bleve/index"
+	"github.com/acgshare/bleve"
+	bleveIndex "github.com/acgshare/bleve/index"
 
 	// we must explicitly include any functionality we plan on testing
-	_ "github.com/blevesearch/bleve/analysis/analyzers/keyword_analyzer"
+	_ "github.com/acgshare/bleve/analysis/analyzers/keyword_analyzer"
 )
 
 var dataset = flag.String("dataset", "", "only test datasets matching this regex")

@@ -12,5 +12,5 @@
 package config
 
 import (
-	_ "github.com/blevesearch/blevex/leveldb"
+	_ "github.com/acgshare/blevex/leveldb"
 )

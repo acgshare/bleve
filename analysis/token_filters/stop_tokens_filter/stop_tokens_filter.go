@@ -19,8 +19,8 @@ package stop_tokens_filter
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/registry"
 )
 
 const Name = "stop_tokens"

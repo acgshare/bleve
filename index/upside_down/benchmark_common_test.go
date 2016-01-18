@@ -14,10 +14,10 @@ import (
 	"strconv"
 	"testing"
 
-	_ "github.com/blevesearch/bleve/analysis/analyzers/standard_analyzer"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/registry"
+	_ "github.com/acgshare/bleve/analysis/analyzers/standard_analyzer"
+	"github.com/acgshare/bleve/document"
+	"github.com/acgshare/bleve/index"
+	"github.com/acgshare/bleve/registry"
 )
 
 var benchmarkDocBodies = []string{

@@ -12,7 +12,7 @@ package firestorm
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/index/store/boltdb"
+	"github.com/acgshare/bleve/index/store/boltdb"
 )
 
 var boltTestConfig = map[string]interface{}{

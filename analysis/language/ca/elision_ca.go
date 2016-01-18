@@ -12,9 +12,9 @@ package ca
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/token_filters/elision_filter"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/analysis/token_filters/elision_filter"
+	"github.com/acgshare/bleve/registry"
 )
 
 const ElisionName = "elision_ca"

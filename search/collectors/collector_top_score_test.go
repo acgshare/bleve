@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/blevesearch/bleve/search"
+	"github.com/acgshare/bleve/search"
 )
 
 func TestTop10Scores(t *testing.T) {

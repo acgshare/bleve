@@ -12,9 +12,9 @@ package firestorm
 import (
 	"math"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/document"
+	"github.com/acgshare/bleve/index"
 )
 
 func (f *Firestorm) Analyze(d *document.Document) *index.AnalysisResult {

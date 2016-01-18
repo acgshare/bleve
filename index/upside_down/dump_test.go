@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store/boltdb"
+	"github.com/acgshare/bleve/index"
+	"github.com/acgshare/bleve/index/store/boltdb"
 
-	"github.com/blevesearch/bleve/document"
+	"github.com/acgshare/bleve/document"
 )
 
 func TestDump(t *testing.T) {

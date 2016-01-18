@@ -10,11 +10,11 @@
 package web
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/language/en"
-	"github.com/blevesearch/bleve/analysis/token_filters/lower_case_filter"
-	webt "github.com/blevesearch/bleve/analysis/tokenizers/web"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/analysis/language/en"
+	"github.com/acgshare/bleve/analysis/token_filters/lower_case_filter"
+	webt "github.com/acgshare/bleve/analysis/tokenizers/web"
+	"github.com/acgshare/bleve/registry"
 )
 
 const Name = "web"

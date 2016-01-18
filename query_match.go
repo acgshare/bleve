@@ -12,8 +12,8 @@ package bleve
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/search"
+	"github.com/acgshare/bleve/index"
+	"github.com/acgshare/bleve/search"
 )
 
 type matchQuery struct {

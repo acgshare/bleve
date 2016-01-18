@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store/gtreap"
+	"github.com/acgshare/bleve/index"
+	"github.com/acgshare/bleve/index/store/gtreap"
 )
 
 func TestDictUpdater(t *testing.T) {

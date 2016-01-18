@@ -12,8 +12,8 @@ package ar
 import (
 	"bytes"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/registry"
 )
 
 const NormalizeName = "normalize_ar"

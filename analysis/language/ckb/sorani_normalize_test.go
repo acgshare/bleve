@@ -13,7 +13,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/analysis"
+	"github.com/acgshare/bleve/analysis"
 )
 
 func TestSoraniNormalizeFilter(t *testing.T) {

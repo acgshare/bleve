@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/blevesearch/bleve/index/store"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/acgshare/bleve/index/store"
+	"github.com/acgshare/bleve/registry"
 	"github.com/rcrowley/go-metrics"
 )
 

@@ -12,8 +12,8 @@ package facets
 import (
 	"sort"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/search"
+	"github.com/acgshare/bleve/index"
+	"github.com/acgshare/bleve/search"
 )
 
 type TermsFacetBuilder struct {

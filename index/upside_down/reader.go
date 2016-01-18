@@ -10,8 +10,8 @@
 package upside_down
 
 import (
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/acgshare/bleve/index"
+	"github.com/acgshare/bleve/index/store"
 )
 
 type UpsideDownCouchTermFieldReader struct {

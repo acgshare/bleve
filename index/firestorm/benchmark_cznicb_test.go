@@ -12,7 +12,7 @@ package firestorm
 import (
 	"testing"
 
-	"github.com/blevesearch/blevex/cznicb"
+	"github.com/acgshare/blevex/cznicb"
 )
 
 func DestroyCznicB() error {

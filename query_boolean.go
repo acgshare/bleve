@@ -13,9 +13,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/searchers"
+	"github.com/acgshare/bleve/index"
+	"github.com/acgshare/bleve/search"
+	"github.com/acgshare/bleve/search/searchers"
 )
 
 type booleanQuery struct {

@@ -12,8 +12,8 @@ package document
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/numeric_util"
+	"github.com/acgshare/bleve/analysis"
+	"github.com/acgshare/bleve/numeric_util"
 )
 
 const DefaultNumericIndexingOptions = StoreField | IndexField
